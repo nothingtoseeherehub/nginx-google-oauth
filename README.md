@@ -1,5 +1,14 @@
 # nginx-google-oauth
 
+Modifying to include redirect proxy for use with guacamole.
+While it is possible to make use of this without modifying the source,
+and make use of environment variables (LOCATION), having a fork reduces
+complications for config changes so that credentials don't end up being
+accidentally committed.
+
+
+
+
 Lua module to add Google OAuth to nginx. It is based on great work
 from [Agora Games](https://github.com/agoragames/nginx-google-oauth).
 
